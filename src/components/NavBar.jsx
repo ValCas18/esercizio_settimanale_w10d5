@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Navbar from "react-bootstrap/Navbar";
 
-function NavScrollExample() {
+function NavBar() {
 	return (
 		<Navbar expand="lg" className="bg-body-tertiary">
 			<Container fluid>
@@ -15,6 +15,7 @@ function NavScrollExample() {
 				/>
 				<Navbar.Brand>
 					<h1>Your Weather App --&gt;</h1>
+					<h1>Non ho svolto l'esercizio poiché, per motivi personali, mi sono dovuto assentare da casa</h1>
 				</Navbar.Brand>
 				<Form className="d-flex">
 					<Form.Control type="search" placeholder="Search A Location" className="me-2" aria-label="Search" />
@@ -25,4 +26,4 @@ function NavScrollExample() {
 	);
 }
 
-export default NavScrollExample;
+export default NavBar;
